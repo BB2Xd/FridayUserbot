@@ -822,7 +822,7 @@ async def slogo(client, message):
             "`Please Give Me A Valid Input. You Can Check Help Menu To Know More!`"
         )
         return
-    img = Image.open("./bot_utils_files/image_templates/yellow_bg_for_logo.jpg")
+    img = Image.open("./bot_utils_files/image_templates/yellow_bg_for_logo.png")
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     font = ImageFont.truetype("./bot_utils_files/Fonts/BADABB__.TTF", 650)
